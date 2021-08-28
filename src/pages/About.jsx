@@ -8,12 +8,15 @@ class About extends Component {
     return (
       <div className="Site">
         <Header/>
-        <div className="Site-content section">
+        <div className="Site-content section center">
           <img
             className="photo"
             src={ profilePhoto }
             alt="foto do linkedin"
           />
+          <h1> About Me</h1>
+          <span>Hi! How are you?</span>
+          <span></span>
         </div>
         <Footer/>
       </div>       

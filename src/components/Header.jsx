@@ -19,9 +19,11 @@ class Header extends Component {
           <span className="items"> Contact</span>
         </Link>
       </div>
-      <h3>{'Welcome to my portfolio'}</h3>
-      <h1>My name is José Henrique Margraf Melo.</h1>
-      <h1>And I'm a Software Engineer Student</h1>
+      <section>
+      <h3 className="title">{'Welcome to my portfolio'}</h3>
+      <h1 className="title">My name is José Henrique Margraf Melo</h1>
+      <h1 className="title">And I'm a Software Engineer Student</h1>
+      </section>
       </div> 
     );
   }
