@@ -7,7 +7,7 @@ import emailSymbol from '../email-symbol.png';
 class Contact extends Component {
   render() {
     return (
-      <div className="Site">
+        <div className="Site">
         <Header/>
         <div className="Site-content section center">
           <h1 className="title">Where you can find me?</h1>
