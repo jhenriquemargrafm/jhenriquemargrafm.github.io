@@ -2,9 +2,6 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import projectPhoto1 from "../project1.jpeg";
-import projectPhoto2 from "../project2.jpg";
-import projectPhoto3 from "../project3.png";
 
 const responsive = {
   superLargeDesktop: {
@@ -33,9 +30,9 @@ const Projects = () => {
       <div className="Site-content section">
         Em construção
         <Carousel responsive={responsive}>
-          <div><img src={projectPhoto1} alt="projeto1"/></div>
-          <div><img src={projectPhoto2} alt="projeto2"/></div>
-          <div><img src={projectPhoto3} alt="projeto3"/></div>
+          <div></div>
+          <div></div>
+          <div></div>
         </Carousel>
       </div>
       <Footer />

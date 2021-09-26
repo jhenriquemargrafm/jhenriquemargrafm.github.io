@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import profilePhoto from "../profile-photo.jpeg";
+import profilePhoto from "../img/profile-photo.jpeg";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
