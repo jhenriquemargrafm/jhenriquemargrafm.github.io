@@ -2,6 +2,9 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import project1 from "../img/react-kanban.png";
+import "./projects.css";
+import { Link } from "react-router-dom";
 
 const responsive = {
   superLargeDesktop: {
@@ -28,9 +31,19 @@ const Projects = () => {
     <div className="Site">
       <Header />
       <div className="Site-content section">
-        Em construção
+        Projects
         <Carousel responsive={responsive}>
-          <div></div>
+          <div className="project">
+            <Link
+              to={{ pathname: "https://jhenriquemargrafm.github.io/react-kanban/" }}
+              target="_blank"
+            >
+            <img src={project1} 
+              className="projectphoto" 
+              alt="foto do projeto Kanban com React" 
+            />
+            </Link>
+          </div>
           <div></div>
           <div></div>
         </Carousel>

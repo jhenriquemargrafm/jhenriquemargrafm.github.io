@@ -1,0 +1,9 @@
+.projectphoto {
+  width:600px;
+  height:300px;
+}
+
+.project {
+  justify-content: center;
+  align-items:center;
+}

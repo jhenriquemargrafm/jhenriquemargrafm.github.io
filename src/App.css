@@ -32,6 +32,8 @@
 .section {
   background-color: rgb(12, 11, 12);
   color: rgba(255, 255, 255, 0.911);
+  align-items: center;
+  justify-content: center;
 }
 
 .photo {
@@ -64,6 +66,7 @@
 
 .Site-content {
   flex: 1;
+  align-items: center;
 }
 
 .title {
