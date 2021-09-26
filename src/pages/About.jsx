@@ -12,7 +12,7 @@ class About extends Component {
           <img className="photo" src={profilePhoto} alt="foto do linkedin" />
           <h1> About Me</h1>
           <span>Hi! How are you?</span>
-          <span></span>
+          <span>Teste</span>
         </div>
         <Footer />
       </div>
